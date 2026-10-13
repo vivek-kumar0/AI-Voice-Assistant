@@ -24,14 +24,14 @@ A responsive full-stack AI assistant built with **React, Vite, FastAPI, and Goog
 - FastAPI interactive API docs
 - Docker-based deployment configuration
 
-## Tech stack
+## Tech Stack
 
-- **Frontend:** React 18, Vite, React Router, Lucide
-- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic Settings
-- **AI:** Google Gemini (`google-genai`)
+- **Frontend:** React, Vite
+- **Backend:** Python, FastAPI
+- **AI:** Google Gemini
 - **Authentication:** JWT
-- **Database:** SQLite by default; PostgreSQL can be configured with `DATABASE_URL`
-- **Deployment:** Docker; Render configuration included
+- **Database:** SQLite, PostgreSQL
+- **Deployment:** Docker, Render
 
 ## Project structure
 

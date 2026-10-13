@@ -1,0 +1,14 @@
+.git/
+**/.git/
+.env
+**/.env
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/node_modules/
+**/dist/
+**/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+legacy_desktop/logs/

@@ -1,0 +1,14 @@
+SpeechRecognition==3.10.4
+pyttsx3==2.90
+PyAudio==0.2.14
+customtkinter==5.2.2
+openai==1.35.13
+requests==2.32.3
+python-dotenv==1.0.1
+wikipedia==1.4.0
+
+# PDF Q&A feature (pdf_assistant/)
+pypdf==4.3.1
+scikit-learn==1.5.1
+numpy==1.26.4
+

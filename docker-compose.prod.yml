@@ -1,0 +1,16 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        VITE_API_URL: ""
+    ports:
+      - "10000:10000"
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    volumes:
+      - assistant_uploads:/app/backend/uploads
+
+volumes:
+  assistant_uploads:
